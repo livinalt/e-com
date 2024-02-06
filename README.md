@@ -25,6 +25,8 @@ This repository contains the source code for an e-commerce website developed usi
 
 To run this project locally, simply download or clone the repository and open the HTML files in a web browser. Make sure to have an internet connection for external resource dependencies such as fonts and icons.
 
+### Link
+You can find the live link to the project here [https://e-com-plum-eta.vercel.app/]
 
 ### License
 
