@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-Comm | Blog </title>
+    <title>E-Comm | Contact </title>
     <script src="https://kit.fontawesome.com/6aaa418055.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,10 +17,10 @@
             <ul id="navbar">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="shop.html">Shop</a></li>
-                <li><a class="active" href="blog.html">Blog</a></li>
+                <li><a href="blog.html">Blog</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <li id="lg-bag"><a class="active" href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
                 <a href="#" id="close"><i class="fa-solid fa-circle-xmark"></i></a>
             </ul>
         </div>
@@ -33,81 +33,78 @@
 
     </section>
 
-    <section id="page-header" class="blog-header">
-        <h2>#ReadMore</h2>
-        <p>Read all case studies about our products</p>
+    <section id="page-header" class="about-header">
+        <h2>#let's_talk</h2>
+        <p>We love to hear from you</p>
     </section>
 
-    <section id="blog">
-        <div class="blog-box">
-            <div class="blog-img">
-                <img src="img/blog/b1.jpg" alt="">
-            </div>
-
-            <div class="blog-details">
-                <h4>The Cotton Jersey Zip-up Hoodie</h4>
-                <p>Kickstarter man braid godard book. Raclette waistcoat selfies
-                    yr wold charteous hexagon irony, godardad ...</p>
-                    <a href="#">CONTINUE READING</a>
-            </div>
-            <h1>13/01</h1>
-        </div>
-        <div class="blog-box">
-            <div class="blog-img">
-                <img src="img/blog/b2.jpg" alt="">
-            </div>
-
-            <div class="blog-details">
-                <h4>The Cotton Jersey Zip-up Hoodie</h4>
-                <p>Kickstarter man braid godard book. Raclette waistcoat selfies
-                    yr wold charteous hexagon irony, godardad ...</p>
-                    <a href="#">CONTINUE READING</a>
-            </div>
-            <h1>13/01</h1>
-        </div>
-        <div class="blog-box">
-            <div class="blog-img">
-                <img src="img/blog/b3.jpg" alt="">
-            </div>
-
-            <div class="blog-details">
-                <h4>The Cotton Jersey Zip-up Hoodie</h4>
-                <p>Kickstarter man braid godard book. Raclette waistcoat selfies
-                    yr wold charteous hexagon irony, godardad ...</p>
-                    <a href="#">CONTINUE READING</a>
-            </div>
-            <h1>13/01</h1>
-        </div>
-        <div class="blog-box">
-            <div class="blog-img">
-                <img src="img/blog/b4.jpg" alt="">
-            </div>
-
-            <div class="blog-details">
-                <h4>The Cotton Jersey Zip-up Hoodie</h4>
-                <p>Kickstarter man braid godard book. Raclette waistcoat selfies
-                    yr wold charteous hexagon irony, godardad ...</p>
-                    <a href="#">CONTINUE READING</a>
-            </div>
-            <h1>13/01</h1>
-        </div>
+    <section id="cart" class="section-1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><i class="fa-solid fa-circle-xmark"></i></td>
+                    <td><img src="img/products/f1.jpg" alt=""></td>
+                    <td>Cartoon Astraunaut T-Shirts</td>
+                    <td>$118.19</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$118.19</td>
+                </tr>
+                <tr>
+                    <td><i class="fa-solid fa-circle-xmark"></i></td>
+                    <td><img src="img/products/f2.jpg" alt=""></td>
+                    <td>Cartoon T-Shirts</td>
+                    <td>$118.19</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$118.19</td>
+                </tr>
+                <tr>
+                    <td><i class="fa-solid fa-circle-xmark"></i></td>
+                    <td><img src="img/products/f3.jpg" alt=""></td>
+                    <td>Cartoon Memes T-Shirts</td>
+                    <td>$118.19</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$118.19</td>
+                </tr>
+            </tbody>
+        </table>
     </section>
 
-    <section id="pagination" class="section-p1">
-        <a href="#">1</a>
-        <a href="#">2</a>
-        <a href="#"><i class="fal fa-long-arow-alt-right"></i></a>
-    </section>
-
-    <section id="newsletter" class="section-p1 section-m1">
-        <div class="newstext">
-            <h4>Sign Up For Newsletters</h4>
-            <p>Get E-mail updates about our latest shop and <span>special offers</span>.</p>
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+        </div>
+        <div>
+            <input type="text" placeholder="Enter Your Coupon">
+            <button class="normal">Apply</button>
         </div>
 
-        <div class="form">
-            <input type="text" placeholder="Your email address">
-            <button class="normal">Sign Up</button>
+        <div id="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotals</td>
+                    <td>$335</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>$335</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Proceed To Checkout</button>
         </div>
     </section>
 
